@@ -2,12 +2,12 @@ name: GitHub Pages
 
 on:
   push:
-    branches:
-    - main
+    branches: [ main ]
   workflow_dispatch:
     
 permissions:
-    contents: read
+    actions: write
+    contents: write
     pages: write
     id-token: write
 
